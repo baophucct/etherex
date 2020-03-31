@@ -78,7 +78,7 @@
     "react": "^15.0.1",
     "react-addons-perf": "^15.0.1",
     "react-addons-transition-group": "^15.0.1",
-    "react-bootstrap": "^0.28.5",
+    "react-bootstrap": "^0.33.1",
     "react-dom": "^15.0.1",
     "react-intl": "^2.0.1",
     "react-qr": "^0.0.2",
