@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - btc-swap > cb-blockr > httpify > request > hawk:
+        patched: '2021-07-17T00:44:31.950Z'
+  'npm:http-signature:20150122':
+    - btc-swap > cb-blockr > httpify > request > http-signature:
+        patched: '2021-07-17T00:44:31.950Z'
+  'npm:mime:20170907':
+    - btc-swap > cb-blockr > httpify > request > mime:
+        patched: '2021-07-17T00:44:31.950Z'
+    - btc-swap > cb-blockr > httpify > request > form-data > mime:
+        patched: '2021-07-17T00:44:31.950Z'
+  'npm:qs:20140806-1':
+    - btc-swap > cb-blockr > httpify > request > qs:
+        patched: '2021-07-17T00:44:31.950Z'
+  'npm:request:20160119':
+    - btc-swap > cb-blockr > httpify > request:
+        patched: '2021-07-17T00:44:31.950Z'
